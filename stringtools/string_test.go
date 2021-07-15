@@ -13,4 +13,17 @@ func TestToBytes(t *testing.T) {
 		t.Errorf("Str Bytes convert failed [str=%s, str2=%s]", str, str2)
 	}
 }
-
+func TestContains(t *testing.T) {
+	if !Contains("123", []string{"123", "345"}) {
+		t.Error("[\"123\", \"345\"] should contain \"123\"")
+		return
+	}
+}
+func TestSubStr(t *testing.T) {
+	expected := "foo"
+	got := SubStr("foo测试bar", 4)
+	if expected != got {
+		t.Errorf("expected [%s], got [%s]", expected, got)
+		return
+	}
+}

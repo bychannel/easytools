@@ -31,7 +31,7 @@ easytools 肯定有一些不足之处：
 
 ## 📄 授权
 
-EasyTools 使用 [BSD-3-Clause许可证](https://opensource.org/licenses/BSD-3-Clause) 开源协议。
+easytools 使用 [BSD-3-Clause许可证](https://opensource.org/licenses/BSD-3-Clause) 开源协议。
 
 ## 🙏 鸣谢
 
