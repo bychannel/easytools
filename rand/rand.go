@@ -2,8 +2,7 @@
 // Use of this source code is governed by a BSD-style license that
 // can be found in the LICENSE file.
 
-// Package randtools provides some useful ways to handle strings
-package randtools
+package easyrand
 
 import (
 	"math/rand"
@@ -48,4 +47,19 @@ func Int(min int, max int) int {
 	rand.Seed(time.Now().UnixNano())
 	time.Sleep(time.Nanosecond)
 	return min + rand.Intn(max-min)
+}
+
+// 在指定集合中按权重随机出一个元素.
+func RandByWeight() {
+
+}
+
+// 判定一次随机事件是否成功.
+func IsSuccess() {
+
+}
+
+// 返回一个随机bool值.
+func RandBool() {
+
 }
